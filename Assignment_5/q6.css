@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .animated-header {
+    font-size: 50px;
+    color: #333;
+    animation: colorChange 3s infinite, moveUp 2s ease-in-out infinite;
+  }
+
+  @keyframes colorChange {
+    0% {
+      color: #333;
+    }
+    50% {
+      color: #ff6347; 
+    }
+    100% {
+      color: #333;
+    }
+  }
+  
+  @keyframes moveUp {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .animated-header:hover {
+    font-size: 60px;
+    color: #ff6347;
+  }
