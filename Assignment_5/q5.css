@@ -1,0 +1,22 @@
+button{
+    padding:10px 20px;
+}
+.gradient-but{
+    background: linear-gradient(to right, aqua, beige);
+    color: black;
+}
+.border-but{
+    background-color: aliceblue;
+    border: 2px solid black;
+    color: navy;
+}
+.border-but:hover{
+    border-color: aquamarine;
+    background-color: aquamarine;
+    color: black;
+}
+.glow-but{
+    background-color: antiquewhite;
+    color: black;
+    box-shadow: 0 0 10px navy;
+}
